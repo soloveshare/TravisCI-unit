@@ -8,3 +8,4 @@ script: "mvn cobertura:cobertura"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+CODECOV_TOKEN="7395e4f3-1594-44d9-83f4-7b32dc62a1e7"
